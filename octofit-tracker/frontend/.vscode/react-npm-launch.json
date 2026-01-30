@@ -1,0 +1,14 @@
+{
+  "type": "node",
+  "request": "launch",
+  "name": "Start React App (npm start)",
+  "runtimeExecutable": "npm",
+  "runtimeArgs": [
+    "start"
+  ],
+  "cwd": "${workspaceFolder}/octofit-tracker/frontend",
+  "env": {
+    "BROWSER": "none"
+  },
+  "console": "integratedTerminal"
+}
